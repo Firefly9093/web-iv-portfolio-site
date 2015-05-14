@@ -51,13 +51,13 @@
     </div>
 </div>    
 <div class="row"> 
-	<div class="medium-4 columns">   
+	<div class="medium-4 columns first">   
 		<img src="http://placehold.it/270x270">
     </div>
-    <div class="medium-4 columns">
+    <div class="medium-4 columns mid">
 		<img src="http://placehold.it/270x270">
     </div>
-    <div class="medium-4 columns">
+    <div class="medium-4 columns last">
 		<img src="http://placehold.it/270x270">
     </div>
 </div>
@@ -82,22 +82,25 @@
 </div>
 
 <footer>
-<div class="medium-4 columns">
-	<h1>contact</h1>
-	<h2>(402) 316-6129</h2>
-	<h2>firefly9093@yahoo.com</h2>
-</div>
-<div class="medium-4 columns">
-	<a href="facebook">
-	<img src="..." class="icon" alt="https://www.facebook.com/pages/..."/>
-	</a>
-</div>
-<div class="medium-4 columns">
-	&copy;copyright hgdesign 2015
-</div>
+<div class="row" data-equalizer data-equalizer-mq>
+    	<div class="small-6 small-centered medium-uncentered medium-4 columns">
+			<h1 data-equalizer-watch>contact</h1>
+			<h2>(402) 316-6129</h2>
+			<h2>firefly9093@yahoo.com</h2>
+        </div>    
+        <div class="small-6 small-centered medium-2 medium-centered columns">    
+			<a href="facebook">
+			<img src="../image/logo-facebook.png" class="icon" alt="https://www.facebook.com/pages/..."/>
+			</a>
+        </div>
+        <div class="small-3 small-centered medium-uncentered medium-8 columns">
+		<small data-equalizer-watch>&copy;copyright hgdesign 2015</small>
+        </div>
+     </div>  
 </footer>
 <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.equalizer.js"></script>
     <script>
       $(document).foundation();
     </script>
