@@ -1,23 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.row{
-	margin-top:50px;
-}
-#contact{
-	margin:45px;
-}
-small{
-	float:right;
-}
-input{
-	width:100%;
-}
+/* type */
 h1{
 	font-size:40px;
 }
 h2{
 	font-size:20px;
+}
+/* footer */
+small{
+	float:right;
 }
 footer h1{ 
 	font-size:14px;
@@ -29,6 +22,14 @@ footer h2{
 	width:50px;
 	height:50px
 }
+/* form */
+#contact{
+	margin:45px;
+}
+input{
+	width:100%;
+}
+/* images */
 .last{
 	padding-left:50px;
 }
@@ -40,4 +41,26 @@ footer h2{
 }
 .lower{
 	padding-top:35px;
+}
+.special{
+	position:absolute;
+	z-index:1000;
+	margin:0 auto;
+	left:0;
+	right:0;
+	top:0;
+	padding-top:130px;
+	padding-left:100px;
+}
+.hero .row{
+	padding-top:70px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.space{
+	margin-top:50px;
 }
