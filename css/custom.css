@@ -9,17 +9,15 @@ h2{
 	font-size:20px;
 }
 /* nav */
-nav#navigation {
-    float:right;   
+#navigation {
+	position: fixed;
+	z-index: 1;
 }
-nav#navigation .nav-trigger.open span::after {
-    bottom:0;
-    -webkit-transform:rotate(225deg);
-    -moz-transform:rotate(225deg);
-    -ms-transform:rotate(225deg);
-    -o-transform:rotate(225deg);
-    transform:rotate(225deg);
-}
+
+
+
+
+
 /* footer */
 small{
 	float:right;
@@ -48,9 +46,10 @@ input{
 .mid{
 	padding-left:35px;
 }
+/*
 .first{
 
-}
+}*/
 .lower{
 	padding-top:35px;
 }
