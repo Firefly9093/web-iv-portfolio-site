@@ -3,36 +3,26 @@
 /*colors  #847367 = brown, #d2a588 = tan, #a6c1de = blue, #efe0d5 = cream */
 
 /* type */
-
-	
 h1{
-	font-size:33pt;
-	font-family:Nunito, Helvetica, sans-serif;
-	color: #d2a588;
-	line-height:29pt;
+	font: 33pt/30pt Nunito, Helvetica, sans-serif;
+	color: #d2a588;	
 }
 h2{
-	font-size:17pt;
-	font-family:Nunito, Helvetica, sans-serif;
+	font:17pt Nunito, Helvetica, sans-serif;
 	color: #847367;
 }
 p{
-	font-size:11pt;
-	font-family:Nunito, Helvetica, sans-serif;
+	font-size:11pt Nunito, Helvetica, sans-serif;
 	color: #847367;
 }
-
 header h1{
-	font-size:17pt;
-	font-family:Nunito, Helvetica, sans-serif;
-	font-weight: bold;
+	font:bold 17pt Nunito, Helvetica, sans-serif;
 	color:#000 /* #fcfcfc*/;
 }
 header p{
 	font-weight: bold;
 	color:#000 /* #fcfcfc*/;
-}
-	
+}	
 .form h1{
 	color: #efe0d5;
 	
@@ -52,20 +42,18 @@ footer p{
 	z-index: 1;
 }
 
-
-
-
-
 /* footer */
 small{
-	float:right;
+	
 	font-family:Nunito, Helvetica, sans-serif;
 	color: #847367;
 }
 
 .icon{
 	width:50px;
-	height:50px
+	height:50px;
+	display:block;
+	margin:auto;
 }
 /* form */
 #contact{
@@ -75,32 +63,18 @@ input{
 	width:100%;
 }
 /* images */
-.last{
-	padding-left:50px;
-}
-.mid{
-	padding-left:35px;
-}
-/*
-.first{
-
-}*/
-.lower{
-	padding-top:35px;
-}
 .special{
 	position:absolute;
 	z-index:1000;
-	margin:0 auto;
+	margin-left:0 auto;
 	left:0;
 	right:0;
-	top:0;
-	padding-top:130px;
-	padding-left:100px;
+	
 }
-.hero .row{
-	padding-top:70px;
+.hero{
+	padding-top:50px;
 }
+/* helpers*/
 .left{
 	float:left;
 }
@@ -110,40 +84,44 @@ input{
 .space{
 	margin-top:50px;
 }
+.mspace{
+	margin-top:75px;
+}
+/* project page*/
+.last{
+	padding-left:50px;
+}
+.mid{
+	padding-left:35px;
+}
+.lower{
+	padding-top:35px;
+}
 @media only screen and (max-width: 40.063em) {
-	.last{
+	.last, .mid , .first {
 		padding-left:0;
 		padding-right:0;
 		margin:0 auto;
 	}
-	.mid{
-		padding-left:0;
-		padding-right:0;
-		margin:0 auto;
+	img{
+		display:block;
+		margin:auto;
 	}
-	.first{
-		padding-left:0;
-		padding-right:0;
-		margin:0 auto;
-
-	}
-	.space{
+	.mspace{
 	margin-top:10px;
 	}
-	.lower{
-	padding-top:10px;
+	.space .lower{
+	margin-top:0px;
+	padding-top:0px;
 	}
 	.special{
 	position: inherit;
 	width: 100%;
 	z-index:0;
 	margin:0 auto;
-	left:0;
-	right:0;
-	top:0;
-	padding-top:0;
-	padding-left:50px;
-	padding-right:0;
-	}
 	
+	}
+	small{
+	float:inherit;
+	}
 }
