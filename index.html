@@ -9,14 +9,43 @@
       <script src="js/vendor/modernizr.js"></script>
    </head>
    <body>
-      <nav id="navigation">
-         <div class="nav-trigger"><span></span></div>
-         <ul class="menu">
-            <li><a href="projects/joy-for-all-generations.html" title="Link">work</a></li>
-            <li><a href="#contact" title="Link">contact</a></li>
-            <li><a href="#about" title="Link">about</a></li>
-         </ul>
-      </nav>
+   
+   
+   
+   
+   <div class="sticky">
+   	<nav class="top-bar" data-topbar role="navigation" data-options="is_hover: false">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#"></a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+  
+    <ul class="right">
+      <li class="has-dropdown">
+        <a>menu</a>
+        <ul class="dropdown">
+        	<li class="active"><a href="index.html">home</a></li>
+            <li class="has-dropdown">
+        	<a>my work</a>
+            	<ul class="dropdown">
+                	<li><a href="projects/joy-for-all-generations.html">joy for all</a></li>
+                    <li><a href="second...">project two</a></li>
+                    <li><a href="second...">project three</a></li>
+                </ul>
+                </li>
+        	<li><a href="#about">about me</a></li>
+        	<li><a href="#contact">contact</a></li>
+        </ul>
+      </li>
+    </ul> 
+  </section>
+</nav>
+</div>
       <header>
          <div class="row">
             <div class="medium-4 columns">
@@ -87,12 +116,15 @@
                <form class="form">
                   <h1>contact me</h1>
                   <div class="row">
-                     <input type="text" name="name">
+                  	<label for="name">name</label>
+                     <input placeholder type="text" name="name">
                   </div>
                   <div class="row">
+                  	<label for="email">email</label>
                      <input type="text" name="email">
                   </div>
                   <div class="row">
+                  	<label for="note">note</label>
                      <input type="text" name="note">
                   </div>
                   <div class="row">
@@ -115,7 +147,7 @@
                </a>
             </div>
             <div class="small-4 small-centered medium-2 medium-offset-2 medium-uncentered columns" data-equalizer-watch>
-               <small class="cta-button">copyright &copy; hgdesign 2015</small>
+               <small>copyright &copy; hgdesign 2015</small>
             </div>
          </div>
       </footer>
@@ -123,6 +155,7 @@
       <script src="js/foundation/foundation.js"></script>
       <script src="js/foundation.min.js"></script>
       <script src="js/foundation/foundation.equalizer.js"></script>
+      <script src="js/foundation/foundation.topbar.js"></script>
       <script>
          $(document).foundation();
       </script>
