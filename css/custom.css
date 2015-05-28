@@ -17,11 +17,11 @@ p{
 }
 header h1{
 	font:bold 17pt Nunito, Helvetica, sans-serif;
-	color:#000 /* #fcfcfc*/;
+	color: #fcfcfc;
 }
 header p{
 	font-weight: bold;
-	color:#000 /* #fcfcfc*/;
+	color: #fcfcfc;
 }	
 .form h1{
 	color: #efe0d5;
@@ -92,13 +92,7 @@ a:hover, a:focus {
   color: #FFFFFF;
 }
 /*form*/
-.form-container {
-  border-radius:100%;
-  display: block;
-  height: 100px;
-  width: 100%;
-  padding: 50% 0;
-  background: #847367;
+
   
 }
 
@@ -158,10 +152,30 @@ small{
 	height:50px;
 	display:block;
 	margin:auto;
+	background-color:#847367;
+	border-radius:6px;
 }
 
 
 /* images */
+header{
+	background-image:url(../image/top-background.jpg);
+	background-repeat: no-repeat;
+	
+	
+	}
+.wall{
+	background-image:url(../image/white-wood-wall.jpg);
+	}
+.about{
+	background-image:url(../image/about-paint.png);
+	}
+#contact{
+	background-image:url(../image/plad-camera.jpg);
+	}
+footer{
+	background-image:url(../image/bottom-paint.png);
+}
 .img{
 	-webkit-border-radius: 30px;
 -moz-border-radius: 30px;
@@ -223,6 +237,10 @@ border-radius: 30px;
 	width: 100%;
 	z-index:0;
 	margin:0 auto;
+	}
+	
+	header, #contact, footer{
+		text-align:center;
 	}
 	
 }
