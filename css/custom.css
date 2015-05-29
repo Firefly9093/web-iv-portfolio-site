@@ -93,8 +93,29 @@ a:hover, a:focus {
 }
 /*form*/
 
-  
+.note input{
+	padding: 20px;
 }
+.form-background{
+	position:relative;
+}
+.form .row .row {
+  width: 45%;
+}
+	
+.form-wrapper{
+	height:63%;
+	width:45%;
+	border-radius:50%;
+	position:absolute;
+	z-index:10;
+	top:25%;
+	left:40%;
+    background-color: #847367;
+   padding:60px;
+
+	}
+
 
 .form-container h1{
 	color: #efe0d5;
@@ -141,10 +162,14 @@ input[type="submit"] {
 
 
 /* footer */
+footer{
+	padding-top:20px;
+}
 small{
 	
 	font-family:Nunito, Helvetica, sans-serif;
 	color: #847367;
+	
 }
 
 .icon{
@@ -152,33 +177,34 @@ small{
 	height:50px;
 	display:block;
 	margin:auto;
-	background-color:#847367;
-	border-radius:6px;
+	border-radius: 0px;
+	
 }
 
 
 /* images */
 header{
+	padding:60px 0;
+	background-size: cover;
 	background-image:url(../image/top-background.jpg);
 	background-repeat: no-repeat;
-	
-	
 	}
-.wall{
+body {
 	background-image:url(../image/white-wood-wall.jpg);
+	background-size: cover;
+	
 	}
-.about{
-	background-image:url(../image/about-paint.png);
+.paint{
+	background-image:;
+	background-size: cover;
 	}
-#contact{
-	background-image:url(../image/plad-camera.jpg);
-	}
+
 footer{
-	background-image:url(../image/bottom-paint.png);
+	background-image:;
+	background-size: cover;
 }
-.img{
-	-webkit-border-radius: 30px;
--moz-border-radius: 30px;
+img{
+	
 border-radius: 30px;
 }
 .special{
@@ -242,5 +268,15 @@ border-radius: 30px;
 	header, #contact, footer{
 		text-align:center;
 	}
+	.form-wrapper{
+	height:none;
+	width:none;
+	border-radius:0;
+	position:absolute;
+	z-index:10;
+	top:25%;
+	left:40%;
+    background-color: clear;
+   padding:0;
 	
 }
