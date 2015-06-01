@@ -39,16 +39,11 @@ footer p{
 /* nav */
 .top-bar {
   background: #efe0d5;
-  opacity: 0.6; 
+  border-radius:6px; 
   font-family: Nunito, Helvetica, sans-serif;
 }
-.top-bar-section li.active:not(.has-form) a:not(.button) {
-  background: #a6c1de;
-  color: #FFFFFF;
- }
- .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
-  background: #efe0d5; 
-  color: #847367;
+.top-bar-section ul li > a {
+  color:  #84736F;
 }
 .top-bar-section li:not(.has-form) a:not(.button) {
   background: #efe0d5;
@@ -58,52 +53,29 @@ footer p{
   background-color: #a6c1de;
   background:  #a6c1de;
 }
-.top-bar-section ul li > a {
-  color: #847367;
-  
-}
-.top-bar-section ul li.active > a {
-  background: #a6c1de;
-  color: #FFFFFF;
-}
-.top-bar-section li.hover > a:not(.button) {
-  background-color: #847367;
-  background: #847367;
-  color: #efe0d5;
-}
 .top-bar-section li.active:not(.has-form) a:not(.button) {
-  background: #a6c1de;
-  color: #FFFFFF;
-}.top-bar-section .dropdown li a {
-  background: #efe0d5;
+  background: #847367 ;
   color: #FFFFFF;
 }
-a:hover, a:focus {
-  color: #a6c1de;
-}
-
-
 .top-bar-section ul li:hover:not(.has-form) > a,
 .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
-      background-color: red;}
+      background-color:  #847367;}
 
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-  background: #0078a0;
+  background:#a6c1de;
   color: #FFFFFF;
 }
+
 /*form*/
 
-.note input{
-	padding: 20px;
+input .note{
+	height: 45px;
 }
 .form-background{
 	position:relative;
 }
-.form .row .row {
-  width: 45%;
-}
-	
-.form-wrapper{
+
+.row .form-wrapper{
 	height:63%;
 	width:45%;
 	border-radius:50%;
@@ -131,7 +103,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   border-width: 1px;
   border-color: #847367;
   color: rgba(0, 0, 0, 0.75);
-  height: 2.3125rem;
+  height: auto;
   margin: 0 0 1rem 0;
   padding: 0.5rem;
   width: 100%;
