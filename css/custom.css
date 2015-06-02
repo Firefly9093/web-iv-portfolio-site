@@ -36,6 +36,7 @@ footer h1{
 footer p{
 	color: #847367;
 	font-size:9pt;
+	line-height:10px;
 }
 	
 /* nav */
@@ -47,6 +48,7 @@ footer p{
 	background: #efe0d5;
 	border-radius:6px; 
 	font-family: Nunito, Helvetica, sans-serif;
+	z-index:4;
 }
 .top-bar-section ul li > a {
 	color:  #84736F;
@@ -70,7 +72,7 @@ footer p{
 	background:#d2a588;
 	color: #FFFFFF;
 }
-/*pigen thing*/
+/*pagination*/
 ul.pagination li.current a, ul.pagination li.current button {
     background: #847367;
 }
@@ -169,6 +171,9 @@ small{
 	background-image:url(../image/top-background.jpg);
 	background-repeat: no-repeat;
 }
+.logo {
+	padding:0;
+}
 .work-top{
 	background-size: cover;
 	background-image:url(../image/work-top.png);
@@ -177,21 +182,22 @@ small{
 body {
 	background-image:url(../image/white-wood-wall.jpg);
 	background-size: cover;
+	
 }
 img{	
 	border-radius: 30px;
 }
 .special{
 	position:absolute;
-	z-index:1000;
+	z-index:3;
 	margin-left:0 auto;
 	left:0;
-	right:0;
-	
+	right:0;	
 }
 .hero{
 	padding-top:50px;
 }
+
 
 /* helpers*/
 
@@ -219,40 +225,58 @@ img{
 .lower{
 	padding-top:35px;
 }
+
+
 @media only screen and (max-width: 40.063em) {
 	.last, .mid , .first {
-		padding-left:0;
-		padding-right:0;
-		margin:0 auto;
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0 auto;
 	}
+	.hero{
+		padding-top: 0;
+	}
+	#about{
+		margin-top: 20px;
+		}
 	img{
-		display:block;
-		margin:auto;
+		display: block;
+		margin: auto;
+		margin-top: 20px;
 	}
 	.mspace{
-		margin-top:10px;
+		margin-top: 0;
 	}
-	.space .lower{
-		margin-top:0px;
-		padding-top:0px;
+	.space, .lower{
+		margin-top: 0;
+		padding-top: 0px;
 	}
 	.special{
 		position: inherit;
 		width: 100%;
-		z-index:0;
-		margin:0 auto;
+		z-index: 0;
+		margin: 0 auto;
 	}
 	header, #contact, footer{
-		text-align:center;
+		text-align: center;
 	}
 	.row .form-wrapper{
-		height:auto;
-		width:100%;
-		border-radius:10px;
-		position:relative;
-		top:0;
-		left:0;
-		padding:none;
-		margin:auto;
+		height: auto;
+		width: 100%;
+		border-radius: 10px;
+		position: relative;
+		top: 0;
+		left: 0;
+		padding: none;
+		margin: auto;
 
 	}
+}
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {  
+	.photo:hover img:first-child {
+	display:none;
+	}
+	.photo:hover img:last-child {
+	display:inline-block;
+	}
+}
