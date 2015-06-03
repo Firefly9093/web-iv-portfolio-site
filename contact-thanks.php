@@ -1,28 +1,27 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
-
 <head>
-	<title>Thank You!</title>
-	
-	<link rel="stylesheet" type="text/css" href="css/custom.css" />
+   <title>Thank you</title>
+   <link rel="stylesheet" href="css/foundation.css"/>
+   <link rel="stylesheet" type="text/css" href="css/custom.css" />
 </head>
-
 <body>
-
-	<div id="page-wrap">
-
-		<img src="images/title.gif" alt="A Nice & Simple Contact Form" />
-		<p>By <a href="http://css-tricks.com">CSS-Tricks</a></p>
-			
-			
-		<br /><br />
-		
-			
-		<h1>Your message has been sent!</h1><br />
-		
-		<p><a href="index.html">Back to Contact Form</a></p>
-	
-	</div>
-
+   <div id="page-wrap" class="row">
+      <div class="small-9 small-centered large-4 columns">
+         <img src="image/logo-brown.png" alt="Thank you" />
+      </div>
+      <br /><br />
+      <div class="small-11 small-centered  large-8 columns">
+         <h1>Your message has been sent!</h1>
+         <div class="row">
+            <div class="small-11 small-centered large-8 columns">
+               <p>Thank you for your time. I will reply back as soon as I can.</p>
+            </div>
+         </div>
+         <div class="small-9 small-centered large-4 columns">
+            <a href="index.html" class="button">back to contact</a>
+         </div>
+      </div>
+   </div>
 </body>
-
 </html>
+<!--<p>By <a href="http://css-tricks.com">CSS-Tricks</a></p>-->
