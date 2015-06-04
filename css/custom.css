@@ -120,6 +120,17 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 ::-webkit-input-placeholder {
 	color: #847367;
 }
+:-moz-placeholder { /* Firefox 18- */
+   color: #847367;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #847367;  
+}
+
+:-ms-input-placeholder {  
+   color: #847367;  
+}
 input[type="submit"] {
 	border-radius: 8px; 
 }

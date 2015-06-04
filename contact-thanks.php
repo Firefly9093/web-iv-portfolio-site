@@ -1,5 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>Thank you</title>
    <link rel="stylesheet" href="css/foundation.css"/>
    <link rel="stylesheet" type="text/css" href="css/custom.css" />

@@ -7,10 +7,6 @@
       <link rel="stylesheet" href="css/foundation.css"/>
       <link rel="stylesheet" href="css/custom.css"/>
       <script src="js/vendor/modernizr.js"></script>
-      <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
-      <!--[if IE]>
-	<link rel="stylesheet" type="text/css" href="all-ie-only.css" />
-<![endif]-->
    </head>
    <body>
       <div class="sticky">
@@ -110,20 +106,21 @@
                         </div>
                         <div class="row">
                            <label>
-                           <input type="text" placeholder="name" id="Name">
+                           <input type="text" placeholder="name" name="Name" id="Name">
                            </label>
                         </div>
                         <div class="row">
                            <label>
-                           <input type="text" placeholder="email" id="Email">
+                           <input type="text" placeholder="email" name="Email" id="Email">
                            </label>
                         </div>
                         <div class="row note">
                            <label>
-                           <textarea placeholder="note" id="Message"></textarea>
+                           <textarea placeholder="note" name="Message" id="Message"></textarea>
                            </label>
                         </div>
                         <div class="row submit-container">
+                        	
                            <input class="submit-button" type="submit" value="send" name="submit">
                         </div>
                      </form>
