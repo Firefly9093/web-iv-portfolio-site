@@ -3,6 +3,7 @@
    <title>Thank you</title>
    <link rel="stylesheet" href="css/foundation.css"/>
    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+   <script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
    <div id="page-wrap" class="row">
@@ -24,4 +25,3 @@
    </div>
 </body>
 </html>
-<!--<p>By <a href="http://css-tricks.com">CSS-Tricks</a></p>-->

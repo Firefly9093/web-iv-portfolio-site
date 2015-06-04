@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 /*colors  #847367 = brown, #d2a588 = tan, #a6c1de = blue, #efe0d5 = cream */
-
+@import url(http://fonts.googleapis.com/css?family=Nunito);
 /* type */
 h1{
 	font: 33pt/30pt Nunito, Helvetica, sans-serif;
@@ -12,7 +12,7 @@ h2{
 	color: #847367;
 }
 p{
-	font-size:11pt Nunito, Helvetica, sans-serif;
+	font:11pt Nunito, Helvetica, sans-serif;
 	color: #847367;
 }
 span{
@@ -46,9 +46,9 @@ footer p{
 }
 .top-bar {
 	background: #efe0d5;
-	border-radius:6px; 
+	border-radius: 6px; 
 	font-family: Nunito, Helvetica, sans-serif;
-	z-index:4;
+	z-index: 4;
 }
 .top-bar-section ul li > a {
 	color:  #84736F;
@@ -96,15 +96,15 @@ input .note{
 	position:relative;
 }
 .row .form-wrapper{
-	height:63%;
-	width:45%;
-	border-radius:50%;
-	position:absolute;
-	z-index:10;
-	top:25%;
-	left:40%;
+	height: 63%;
+	width: 45%;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 10;
+	top: 25%;
+	left: 40%;
     background-color: #847367;
-	padding:60px;
+	padding: 60px;
 }
 .form-container h1{
 	color: #efe0d5;
@@ -115,14 +115,7 @@ placeholder {
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
 	border-radius: 8px;
 	background-color: #efe0d5;
-	border-style: solid;
-	border-width: 1px;
 	border-color: #847367;
-	color: rgba(0, 0, 0, 0.75);
-	height: auto;
-	margin: 0 0 1rem 0;
-	padding: 0.5rem;
-	width: 100%;
 }
 ::-webkit-input-placeholder {
 	color: #847367;
@@ -147,39 +140,39 @@ input[type="submit"] {
 /* footer */
 
 footer{
-	padding-top:1px;
-	background-color:#efe0d5;
+	padding-top: 1px;
+	background-color: #efe0d5;
 }
 small{
-	font-family:Nunito, Helvetica, sans-serif;
+	font-family: Nunito, Helvetica, sans-serif;
 	color: #847367;
 }
 .icon{
-	width:50px;
-	height:50px;
-	display:block;
-	margin:auto;
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: auto;
 	border-radius: 0px;
 }
 
 /* images */
 
 .home-top{
-	padding:60px 0;
+	padding: 60px 0;
 	background-size: cover;
-	background-image:url(../image/top-background.jpg);
+	background-image: url(../image/top-background.jpg);
 	background-repeat: no-repeat;
 }
 .logo {
-	padding:0;
+	padding: 0;
 }
 .work-top{
 	background-size: cover;
-	background-image:url(../image/work-top.png);
+	background-image: url(../image/work-top.png);
 	background-repeat: no-repeat;
 }
 body {
-	background-image:url(../image/white-wood-wall.jpg);
+	background-image: url(../image/white-wood-wall.jpg);
 	background-color: white;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -189,56 +182,55 @@ img{
 	border-radius: 30px;
 }
 .special{
-	position:absolute;
-	z-index:3;
-	margin-left:0 auto;
-	left:0;
-	right:0;	
+	position: absolute;
+	z-index: 3;
+	margin-left: auto;
+	left: 0;
+	right: 0;	
 }
 .hero{
-	padding-top:50px;
+	padding-top: 50px;
 }
 
 
 /* helpers*/
 
 .move-left{
-	float:left;
+	float: left;
 }
 .move-right{
-	float:right;
+	float: right;
 }
 .space{
-	margin-top:50px;
+	margin-top: 50px;
 }
 .mspace{
-	margin-top:75px;
+	margin-top: 75px;
 }
 
 /* project page*/
 
 .last{
-	padding-left:50px;
+	padding-left: 50px;
 }
 .mid{
-	padding-left:35px;
+	padding-left: 35px;
 }
 .lower{
-	padding-top:35px;
+	padding-top: 35px;
 }
 /* thank you page*/
+
 .button {
-  
-  border-radius: 9px;
-  font-family: Nunito, Helvetica, sans-serif;
-  background-color: #847367;
-  border-color: #847367;
-  color: #efe0d5;
-  
+	border-radius: 9px;
+	font-family: Nunito, Helvetica, sans-serif;
+	background-color: #847367;
+	border-color: #847367;
+	color: #efe0d5; 
 }
 .button:hover, .button:focus {
-  background-color: #a6c1de;
-  color: #fff;
+	background-color: #a6c1de;
+	color: #fff;
 }
 
 
@@ -281,10 +273,10 @@ img{
 		position: relative;
 		top: 0;
 		left: 0;
-		padding: none;
+		padding: 20px;
 		margin: auto;
 	}
 	.breather{
-		margin-top:25px;
-		}
+		margin-top: 25px;
+	}
 }
